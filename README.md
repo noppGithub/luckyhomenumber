@@ -1,14 +1,15 @@
-## Project information
-**Author**: Nopporn Phantawee
+# Luckyhomenumber
+My friend asked me, "Does the home address number matters?", well I don't know
+So I googled, and found several websites saying the similar idea.
+I created this library to let my friend check if his homeaddress number is good(lucky)
 
-**Description**: A template project for developing a new Python app which is plan to run locally on a machine.
+### Installation
+`pip install --upgrade luckyhomenumber`
 
-## Prerequisite
-- A computer(you need it for sure!)
-- Python 3: https://www.python.org/downloads/
-- Python 3 virtual environment: refer to my guide [here](https://github.com/noppGithub/npmisc/blob/master/notes/Python/Create%20virtual%20environment%20for%20your%20project.md)
-- Git: this will keep track all changes of the project, set it up using this [guide](https://github.com/noppGithub/npmisc/blob/master/notes/Misc/setup%20Git%20system.md)
-
-## To do
-- [x] Created readme guide
-- [ ] Add `unittest`
+### Usage
+```python
+from luckyhomenumber import Homenumber
+my_homenumber = '1488/186'
+hm = Homenumber(my_homenumber)
+hm.is_good_address()
+```
