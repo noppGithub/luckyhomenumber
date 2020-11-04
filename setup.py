@@ -8,8 +8,9 @@ with open('LICENSE') as f:
 
 setup(
     name='luckyhomenumber',
-    version='0.0.2',
+    version='0.0.3',
     description='An application to help you find a lucky home address number',
+    long_description_content_type="text/markdown",
     long_description=readme,
     author='Nopporn Phantawee',
     author_email='n.phantawee@gmail.com',
